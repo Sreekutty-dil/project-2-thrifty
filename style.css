@@ -1,0 +1,494 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1, h2, h3 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #666;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    background-color: #ff7300;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 15px 20px;
+    color: white;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar .nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar .nav-links li {
+    margin: 0 10px;
+}
+
+.navbar .nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero section */
+.hero-section {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcCCfUhqd-CuqcMlpwf_KE0uY9XGMLqMEoCA&s');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-buttons {
+    margin-top: 20px;
+}
+
+.hero-buttons button {
+    margin: 10px;
+}
+
+/* Services section */
+.services-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.services-section .service {
+    width: 30%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.services-section .service h3 {
+    margin-bottom: 15px;
+}
+
+.services-section .service button {
+    margin-top: 15px;
+}
+
+/* Stats section */
+.stats-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1, h2, h3 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #666;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    background-color: #ff7300;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 15px 20px;
+    color: white;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar .nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar .nav-links li {
+    margin: 0 10px;
+}
+
+.navbar .nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero section */
+.hero-section {
+    background-image: url('data:image/jpeg;base64,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');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero-section h1 {
+    color: white;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-buttons {
+    margin-top: 20px;
+}
+
+.hero-buttons button {
+    margin: 10px;
+}
+.heading1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+/* Services section */
+.services-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.services-section .service {
+    width: 30%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.services-section .service h3 {
+    margin-bottom: 15px;
+}
+
+.services-section .service button {
+    margin-top: 15px;
+}
+
+.heading2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+/* Stats section */
+.stats-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 50px;
+    background-color: #fff;
+}
+
+.stats-section .stat {
+    width: 20%;
+    text-align: center;
+}
+
+.stats-section .stat h3 {
+    font-size: 36px;
+    color: #ff7300;
+    margin-bottom: 10px;
+}
+/* Testimonial section */
+.testimonial-section {
+    background-color: #333;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.testimonial-section .testimonial {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.testimonial-section h2 {
+    color: #ff7300;
+    margin-bottom: 10px;
+}
+.testimonial-section h3 {
+    color: white;
+    margin-bottom: 10px;
+}
+.testimonial-section p {
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+/* Our Services section */
+.our-services-section {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.our-services-section h2 {
+    margin-bottom: 40px;
+}
+
+.our-services-section .service-card {
+    display: inline-block;
+    width: 22%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Pricing section */
+.pricing-section {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.pricing-section h2 {
+    margin-bottom: 40px;
+}
+.pricing-section .pricing-card {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    background-color: #f4f4f4;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-section .pricing-card.highlighted {
+    background-color: #ff7300;
+    color: white;
+}
+
+.pricing-section .pricing-card h3 {
+    margin-bottom: 20px;
+}
+
+/* CTA section */
+.cta-section {
+    padding: 50px 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+.cta-section button {
+    padding: 15px 30px;
+    border: none;
+    background-color: #ff7300;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}.footer .footer-logo {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.footer .footer-nav {
+    display: inline-block;
+    text-align: left;
+    margin-top: 20px;
+}
+.footer .footer-nav h3 {
+    margin-bottom: 15px;
+}
+
+.footer .footer-nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+.footer .footer-nav ul li {
+    margin: 5px 0;
+}
+
+.footer .footer-nav a {
+    color: white;
+    text-decoration: none;
+}
+.stats-section .stat {
+    width: 20%;
+    text-align: center;
+}
+
+.stats-section .stat h3 {
+    font-size: 36px;
+    color: #ff7300;
+    margin-bottom: 10px;
+}
+/* Testimonial section */
+.testimonial-section {
+    background-color: #333;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.testimonial-section .testimonial {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.testimonial-section p {
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+/* Our Services section */
+.our-services-section {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.our-services-section h2 {
+    margin-bottom: 40px;
+}
+
+.our-services-section .service-card {
+    display: inline-block;
+    width: 22%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Pricing section */
+.pricing-section {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.pricing-section h2 {
+    margin-bottom: 40px;
+}
+.pricing-section .pricing-card {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    background-color: #f4f4f4;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-section .pricing-card.highlighted {
+    background-color: #ff7300;
+    color: white;
+}
+
+.pricing-section .pricing-card h3 {
+    margin-bottom: 20px;
+}
+
+/* CTA section */
+.cta-section {
+    padding: 50px 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+.cta-section button {
+    padding: 15px 30px;
+    border: none;
+    background-color: #ff7300;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}.footer .footer-logo {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.footer .footer-nav {
+    display: inline-block;
+    text-align: left;
+    margin-top: 20px;
+}
+.footer .footer-nav h3 {
+    margin-bottom: 15px;
+}
+
+.footer .footer-nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+.footer .footer-nav ul li {
+    margin: 5px 0;
+}
+
+.footer .footer-nav a {
+    color: white;
+    text-decoration: none;
+}
